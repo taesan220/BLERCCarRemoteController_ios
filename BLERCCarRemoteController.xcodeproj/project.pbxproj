@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		808FC01423D3419400FD0E26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 808FC01323D3419400FD0E26 /* AppDelegate.m */; };
+		808FC01723D3419400FD0E26 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 808FC01623D3419400FD0E26 /* SceneDelegate.m */; };
+		808FC01A23D3419400FD0E26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 808FC01923D3419400FD0E26 /* ViewController.m */; };
+		808FC01D23D3419400FD0E26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808FC01B23D3419400FD0E26 /* Main.storyboard */; };
+		808FC01F23D3419600FD0E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 808FC01E23D3419600FD0E26 /* Assets.xcassets */; };
+		808FC02223D3419600FD0E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808FC02023D3419600FD0E26 /* LaunchScreen.storyboard */; };
+		808FC02523D3419600FD0E26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 808FC02423D3419600FD0E26 /* main.m */; };
+		808FC02F23D3419700FD0E26 /* BLERCCarRemoteControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 808FC02E23D3419700FD0E26 /* BLERCCarRemoteControllerTests.m */; };
+		808FC03A23D3419700FD0E26 /* BLERCCarRemoteControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 808FC03923D3419700FD0E26 /* BLERCCarRemoteControllerUITests.m */; };
+		808FC04923D3428700FD0E26 /* BluetoothConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 808FC04823D3428700FD0E26 /* BluetoothConnectViewController.m */; };
+		808FC04C23D342C000FD0E26 /* BluetoothInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 808FC04B23D342C000FD0E26 /* BluetoothInterface.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		808FC02B23D3419700FD0E26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 808FC00723D3419400FD0E26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 808FC00E23D3419400FD0E26;
+			remoteInfo = BLERCCarRemoteController;
+		};
+		808FC03623D3419700FD0E26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 808FC00723D3419400FD0E26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 808FC00E23D3419400FD0E26;
+			remoteInfo = BLERCCarRemoteController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		808FC00F23D3419400FD0E26 /* BLERCCarRemoteController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLERCCarRemoteController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		808FC01223D3419400FD0E26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		808FC01323D3419400FD0E26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		808FC01523D3419400FD0E26 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		808FC01623D3419400FD0E26 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		808FC01823D3419400FD0E26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		808FC01923D3419400FD0E26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		808FC01C23D3419400FD0E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		808FC01E23D3419600FD0E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		808FC02123D3419600FD0E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		808FC02323D3419600FD0E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808FC02423D3419600FD0E26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		808FC02A23D3419700FD0E26 /* BLERCCarRemoteControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLERCCarRemoteControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		808FC02E23D3419700FD0E26 /* BLERCCarRemoteControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLERCCarRemoteControllerTests.m; sourceTree = "<group>"; };
+		808FC03023D3419700FD0E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808FC03523D3419700FD0E26 /* BLERCCarRemoteControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLERCCarRemoteControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		808FC03923D3419700FD0E26 /* BLERCCarRemoteControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLERCCarRemoteControllerUITests.m; sourceTree = "<group>"; };
+		808FC03B23D3419700FD0E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808FC04723D3428700FD0E26 /* BluetoothConnectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothConnectViewController.h; sourceTree = "<group>"; };
+		808FC04823D3428700FD0E26 /* BluetoothConnectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothConnectViewController.m; sourceTree = "<group>"; };
+		808FC04A23D342C000FD0E26 /* BluetoothInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothInterface.h; sourceTree = "<group>"; };
+		808FC04B23D342C000FD0E26 /* BluetoothInterface.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothInterface.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		808FC00C23D3419400FD0E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808FC02723D3419700FD0E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808FC03223D3419700FD0E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		808FC00623D3419400FD0E26 = {
+			isa = PBXGroup;
+			children = (
+				808FC01123D3419400FD0E26 /* BLERCCarRemoteController */,
+				808FC02D23D3419700FD0E26 /* BLERCCarRemoteControllerTests */,
+				808FC03823D3419700FD0E26 /* BLERCCarRemoteControllerUITests */,
+				808FC01023D3419400FD0E26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		808FC01023D3419400FD0E26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				808FC00F23D3419400FD0E26 /* BLERCCarRemoteController.app */,
+				808FC02A23D3419700FD0E26 /* BLERCCarRemoteControllerTests.xctest */,
+				808FC03523D3419700FD0E26 /* BLERCCarRemoteControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		808FC01123D3419400FD0E26 /* BLERCCarRemoteController */ = {
+			isa = PBXGroup;
+			children = (
+				808FC01223D3419400FD0E26 /* AppDelegate.h */,
+				808FC01323D3419400FD0E26 /* AppDelegate.m */,
+				808FC01523D3419400FD0E26 /* SceneDelegate.h */,
+				808FC01623D3419400FD0E26 /* SceneDelegate.m */,
+				808FC01823D3419400FD0E26 /* ViewController.h */,
+				808FC01923D3419400FD0E26 /* ViewController.m */,
+				808FC04723D3428700FD0E26 /* BluetoothConnectViewController.h */,
+				808FC04823D3428700FD0E26 /* BluetoothConnectViewController.m */,
+				808FC04A23D342C000FD0E26 /* BluetoothInterface.h */,
+				808FC04B23D342C000FD0E26 /* BluetoothInterface.m */,
+				808FC01B23D3419400FD0E26 /* Main.storyboard */,
+				808FC01E23D3419600FD0E26 /* Assets.xcassets */,
+				808FC02023D3419600FD0E26 /* LaunchScreen.storyboard */,
+				808FC02323D3419600FD0E26 /* Info.plist */,
+				808FC02423D3419600FD0E26 /* main.m */,
+			);
+			path = BLERCCarRemoteController;
+			sourceTree = "<group>";
+		};
+		808FC02D23D3419700FD0E26 /* BLERCCarRemoteControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				808FC02E23D3419700FD0E26 /* BLERCCarRemoteControllerTests.m */,
+				808FC03023D3419700FD0E26 /* Info.plist */,
+			);
+			path = BLERCCarRemoteControllerTests;
+			sourceTree = "<group>";
+		};
+		808FC03823D3419700FD0E26 /* BLERCCarRemoteControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				808FC03923D3419700FD0E26 /* BLERCCarRemoteControllerUITests.m */,
+				808FC03B23D3419700FD0E26 /* Info.plist */,
+			);
+			path = BLERCCarRemoteControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		808FC00E23D3419400FD0E26 /* BLERCCarRemoteController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 808FC03E23D3419700FD0E26 /* Build configuration list for PBXNativeTarget "BLERCCarRemoteController" */;
+			buildPhases = (
+				808FC00B23D3419400FD0E26 /* Sources */,
+				808FC00C23D3419400FD0E26 /* Frameworks */,
+				808FC00D23D3419400FD0E26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLERCCarRemoteController;
+			productName = BLERCCarRemoteController;
+			productReference = 808FC00F23D3419400FD0E26 /* BLERCCarRemoteController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		808FC02923D3419700FD0E26 /* BLERCCarRemoteControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 808FC04123D3419700FD0E26 /* Build configuration list for PBXNativeTarget "BLERCCarRemoteControllerTests" */;
+			buildPhases = (
+				808FC02623D3419700FD0E26 /* Sources */,
+				808FC02723D3419700FD0E26 /* Frameworks */,
+				808FC02823D3419700FD0E26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				808FC02C23D3419700FD0E26 /* PBXTargetDependency */,
+			);
+			name = BLERCCarRemoteControllerTests;
+			productName = BLERCCarRemoteControllerTests;
+			productReference = 808FC02A23D3419700FD0E26 /* BLERCCarRemoteControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		808FC03423D3419700FD0E26 /* BLERCCarRemoteControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 808FC04423D3419700FD0E26 /* Build configuration list for PBXNativeTarget "BLERCCarRemoteControllerUITests" */;
+			buildPhases = (
+				808FC03123D3419700FD0E26 /* Sources */,
+				808FC03223D3419700FD0E26 /* Frameworks */,
+				808FC03323D3419700FD0E26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				808FC03723D3419700FD0E26 /* PBXTargetDependency */,
+			);
+			name = BLERCCarRemoteControllerUITests;
+			productName = BLERCCarRemoteControllerUITests;
+			productReference = 808FC03523D3419700FD0E26 /* BLERCCarRemoteControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		808FC00723D3419400FD0E26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Taesan Kim";
+				TargetAttributes = {
+					808FC00E23D3419400FD0E26 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					808FC02923D3419700FD0E26 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 808FC00E23D3419400FD0E26;
+					};
+					808FC03423D3419700FD0E26 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 808FC00E23D3419400FD0E26;
+					};
+				};
+			};
+			buildConfigurationList = 808FC00A23D3419400FD0E26 /* Build configuration list for PBXProject "BLERCCarRemoteController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 808FC00623D3419400FD0E26;
+			productRefGroup = 808FC01023D3419400FD0E26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				808FC00E23D3419400FD0E26 /* BLERCCarRemoteController */,
+				808FC02923D3419700FD0E26 /* BLERCCarRemoteControllerTests */,
+				808FC03423D3419700FD0E26 /* BLERCCarRemoteControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		808FC00D23D3419400FD0E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808FC02223D3419600FD0E26 /* LaunchScreen.storyboard in Resources */,
+				808FC01F23D3419600FD0E26 /* Assets.xcassets in Resources */,
+				808FC01D23D3419400FD0E26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808FC02823D3419700FD0E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808FC03323D3419700FD0E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		808FC00B23D3419400FD0E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808FC04C23D342C000FD0E26 /* BluetoothInterface.m in Sources */,
+				808FC01A23D3419400FD0E26 /* ViewController.m in Sources */,
+				808FC01423D3419400FD0E26 /* AppDelegate.m in Sources */,
+				808FC04923D3428700FD0E26 /* BluetoothConnectViewController.m in Sources */,
+				808FC02523D3419600FD0E26 /* main.m in Sources */,
+				808FC01723D3419400FD0E26 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808FC02623D3419700FD0E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808FC02F23D3419700FD0E26 /* BLERCCarRemoteControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808FC03123D3419700FD0E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808FC03A23D3419700FD0E26 /* BLERCCarRemoteControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		808FC02C23D3419700FD0E26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 808FC00E23D3419400FD0E26 /* BLERCCarRemoteController */;
+			targetProxy = 808FC02B23D3419700FD0E26 /* PBXContainerItemProxy */;
+		};
+		808FC03723D3419700FD0E26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 808FC00E23D3419400FD0E26 /* BLERCCarRemoteController */;
+			targetProxy = 808FC03623D3419700FD0E26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		808FC01B23D3419400FD0E26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				808FC01C23D3419400FD0E26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		808FC02023D3419600FD0E26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				808FC02123D3419600FD0E26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		808FC03C23D3419700FD0E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		808FC03D23D3419700FD0E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		808FC03F23D3419700FD0E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTR734SZDN;
+				INFOPLIST_FILE = BLERCCarRemoteController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Taesan-Kim.BLERCCarRemoteController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		808FC04023D3419700FD0E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTR734SZDN;
+				INFOPLIST_FILE = BLERCCarRemoteController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Taesan-Kim.BLERCCarRemoteController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		808FC04223D3419700FD0E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTR734SZDN;
+				INFOPLIST_FILE = BLERCCarRemoteControllerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Taesan-Kim.BLERCCarRemoteControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLERCCarRemoteController.app/BLERCCarRemoteController";
+			};
+			name = Debug;
+		};
+		808FC04323D3419700FD0E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTR734SZDN;
+				INFOPLIST_FILE = BLERCCarRemoteControllerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Taesan-Kim.BLERCCarRemoteControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLERCCarRemoteController.app/BLERCCarRemoteController";
+			};
+			name = Release;
+		};
+		808FC04523D3419700FD0E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTR734SZDN;
+				INFOPLIST_FILE = BLERCCarRemoteControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Taesan-Kim.BLERCCarRemoteControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BLERCCarRemoteController;
+			};
+			name = Debug;
+		};
+		808FC04623D3419700FD0E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTR734SZDN;
+				INFOPLIST_FILE = BLERCCarRemoteControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Taesan-Kim.BLERCCarRemoteControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BLERCCarRemoteController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		808FC00A23D3419400FD0E26 /* Build configuration list for PBXProject "BLERCCarRemoteController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808FC03C23D3419700FD0E26 /* Debug */,
+				808FC03D23D3419700FD0E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		808FC03E23D3419700FD0E26 /* Build configuration list for PBXNativeTarget "BLERCCarRemoteController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808FC03F23D3419700FD0E26 /* Debug */,
+				808FC04023D3419700FD0E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		808FC04123D3419700FD0E26 /* Build configuration list for PBXNativeTarget "BLERCCarRemoteControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808FC04223D3419700FD0E26 /* Debug */,
+				808FC04323D3419700FD0E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		808FC04423D3419700FD0E26 /* Build configuration list for PBXNativeTarget "BLERCCarRemoteControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808FC04523D3419700FD0E26 /* Debug */,
+				808FC04623D3419700FD0E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 808FC00723D3419400FD0E26 /* Project object */;
+}
